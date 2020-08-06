@@ -6,7 +6,7 @@ import random
 import hashlib
 from uuid import getnode as get_mac
 
-from p2pnetwork.nodeconnection import NodeConnection
+from nodeconnection import NodeConnection
 
 
 class Node(threading.Thread):
